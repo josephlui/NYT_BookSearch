@@ -47,8 +47,7 @@ class MyBookList extends Component {
 
     render() {
     return (
-     <div>
-      <hr />
+     <div className="bodyContainer">
       <div className="bookListContainer">
           <DisplayResult 
             resultList={this.state.result} 
